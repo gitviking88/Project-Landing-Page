@@ -1,4 +1,3 @@
-* {border: solid red 3px;}
 #logo-image {
     height: 70px;
 }
@@ -159,7 +158,16 @@ h3 {
     display: flex;
     padding-left: 80px;
     padding-right: 80px;
+    background-color:  rgb(96, 173, 232);
 }
 .actiontext {
-    margin-right: 40px;
+    margin-right: 80px;
+}
+
+/* Footer start */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
