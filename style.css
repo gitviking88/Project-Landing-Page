@@ -60,9 +60,9 @@ h1 {
     margin-bottom: 15px;
 }
 
-#apply1 {
-    background-color: rgb(96, 173, 232);
-    padding: 5px;
+#button-one {
+    background-color: rgb(73,131,246);
+    padding: 6px;
     border-radius: 10%;
     color: white;
     font-size: 16px;
@@ -135,6 +135,7 @@ h1 {
     padding-right: 300px;
     padding-top: 100px;
     padding-bottom: 100px;
+    background-color: rgb(229,231,235);
 }
 
 h3 {
@@ -160,12 +161,18 @@ h3 {
 }
 .actionbox {
     display: flex;
+    align-items: flex-end;
     padding-left: 80px;
     padding-right: 80px;
-    background-color:  rgb(96, 173, 232);
+    background-color:  rgb(73,131,246);
 }
 .actiontext {
     margin-right: 80px;
+}
+
+#button-two {
+background-color: white;
+
 }
 
 /* Footer start */
