@@ -5,17 +5,9 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-/* images size */
-#rider {
-    height: 200px;
-}
-
-.subimage {
-    height: 90px;
-}
 
 /* header section */
-.header {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,6 +63,10 @@ h1 {
     border-radius: 10%;
     color: white;
     font-size: 16px;
+}
+
+#rider {
+    height: 200px;
 }
 
 /* center section start */
