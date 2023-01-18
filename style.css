@@ -98,6 +98,8 @@ h1 {
 .imageholder {
     height: 120px;
     width: 200px;
+    border-radius: 10%;
+    border: solid blue 3px;
 }
 
 .image-one {
@@ -118,4 +120,29 @@ h1 {
 .image-four {
     background-image: url(/images/road\ so\ far.jpeg);
     background-size: cover;
+}
+
+/* Section bottom 1 start  */
+.bottom1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.quote {
+    margin: 0;
+    align-self: flex-end;
+    font-weight: 700;
 }
