@@ -6,7 +6,7 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+/* images size */
 #rider {
     height: 200px;
 }
@@ -15,6 +15,7 @@ body {
     height: 90px;
 }
 
+/* header section */
 .header {
     display: flex;
     justify-content: space-between;
@@ -36,6 +37,7 @@ a {
     padding-left: 20px;
 }
 
+/* top section start */
 .top {
     display: flex;
     justify-content: center;
@@ -73,6 +75,7 @@ h1 {
     font-size: 16px;
 }
 
+/* center section start */
 .center {
     display: flex;
     flex-direction: column;
@@ -89,5 +92,30 @@ h1 {
 .element {
     margin: 20px;
     max-width: 200px;
-    max-height: 250px;
+    max-height: 300px;
+}
+
+.imageholder {
+    height: 120px;
+    width: 200px;
+}
+
+.image-one {
+    background-image: url(/images/motorcycle.png);
+    background-size: cover;
+}
+
+.image-two {
+    background-image: url(/images/copenhagen.jpeg);
+    background-size: cover;
+}
+
+.image-three {
+    background-image: url(/images/money.jpeg);
+    background-size: cover;
+}
+
+.image-four {
+    background-image: url(/images/road\ so\ far.jpeg);
+    background-size: cover;
 }
