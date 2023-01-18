@@ -1,3 +1,4 @@
+*{border:solid red 2px}
 body {
     font-family: roboto, Geneva, Tahoma, sans-serif;
     max-width: 1300px;
@@ -9,18 +10,21 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
     background-color: rgb(31,41,55);
     height: 100px;
 }
 
-#logo-image {
-    height: 70px;
+.logo {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color:#f9faf8;
 }
 ul {
     display: flex;
     margin: 0;
-    padding-right: 20px;
     list-style-type: none;
     flex: 0 0 auto;
 }
@@ -40,15 +44,16 @@ a {
     padding-bottom: 50px;
     background-color: #1F2937;
     color: white;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .titlebox {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    flex: 0 0 550px;
-    padding: 20px;
-    margin-right: 40px;
+    /* margin-right: 40px; */
+    flex: 50%;
 }
 
 h1 {
@@ -64,16 +69,23 @@ h1 {
     color:#E5E7EB;
 }
 
+.imagebox {
+    display: flex;
+    margin: 0;
+    border: none;
+    flex:50%;
+    background-image: url(/images/mc-rider.jpeg);
+    background-size: cover;
+    height: 224px;
+    width: 300px;
+}
+
 #button-one {
     background-color: #3882F6;
     padding: 6px;
     border-radius: 10px;
     color: white;
     font-size: 16px;
-}
-
-#rider {
-    height: 200px;
 }
 
 /* center section start */
@@ -97,7 +109,9 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 50px;
+    padding-top: 0;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
     flex-wrap: wrap;
 }
 
@@ -108,7 +122,7 @@ h1 {
 }
 
 .imageholder {
-    height: 120px;
+    height: 200px;
     width: 200px;
     border-radius: 10px;
     border: solid blue 3px;
