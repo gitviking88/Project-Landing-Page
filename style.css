@@ -166,15 +166,18 @@ h1 {
 
 h3 {
     margin: 0;
-    font-size: 24px;
+    font-size: 36px;
     font-weight: 200;
     font-style: italic;
+    color: #1f2937;
 }
 
 .quote {
     margin: 0;
     align-self: flex-end;
     font-weight: 700;
+    font-size: 24px;
+
 }
 
 /* start bottom 2 section */
