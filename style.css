@@ -137,7 +137,7 @@ h1 {
 h3 {
     margin: 0;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 400;
     font-style: italic;
 }
 
@@ -145,4 +145,21 @@ h3 {
     margin: 0;
     align-self: flex-end;
     font-weight: 700;
+}
+
+/* start bottom 2 section */
+.bottom2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.actionbox {
+    display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.actiontext {
+    margin-right: 40px;
 }
